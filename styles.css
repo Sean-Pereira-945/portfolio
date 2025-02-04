@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #333; /* Dark Grey Background */
+    color: #fff; /* White Text */
+}
+
+header {
+    background: #4CAF50; /* Green Header */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 3px solid white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+    color: #f4f4f9;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background: #444; /* Slightly Lighter Grey */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #ADD8E6; /* Light Blue Accent */
+}
+
+/* About Section */
+#about p {
+    text-align: justify;
+    line-height: 1.8;
+}
+
+/* Skills Section */
+.skill-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.skill-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.skill-item img:hover {
+    transform: scale(1.1);
+}
+
+/* Projects Section */
+.project {
+    text-align: center;
+}
+
+.project img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #444; /* Slightly Lighter Grey */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
